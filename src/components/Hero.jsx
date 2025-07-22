@@ -87,7 +87,7 @@ const Hero = () => {
 
 
 <model-viewer
-  src="./src/model/zara_pullover.glb"
+          src="zara_pullover.glb"
   className="
     hidden md:block
     absolute z-[999]

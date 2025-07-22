@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+.outline-text {
+  color: transparent;
+  /* -webkit-text-stroke:1.5px black; */
+}
+
+.outline-text2 {
+  -webkit-text-stroke: 1px #FFEBAB;
+  color: transparent;
+}
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+@font-face {
+  font-family: 'gumona';
+  src: url('./Fonts/Gumona.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Afgeta';
+  src: url('./Fonts/Afgeta-BoldItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'onder';
+  src: url('./Fonts/ONDER-REGULAR.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'explore';
+  src: url('./Fonts/Explore.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'marios';
+  src: url('./Fonts/Marios.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'wosker';
+  src: url('./Fonts/Wosker.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+@font-face {
+  font-family: 'dassie';
+  src: url('./Fonts/Dassie.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neo';
+  src: url('./Fonts/Neovibes.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

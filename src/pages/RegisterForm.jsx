@@ -4,6 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { easeIn, motion } from 'framer-motion';
 import { toast } from 'react-toastify';
 import Register from '../images/registered.gif';
+import React from 'react'
 
 const RegisterForm = () => {
   const {

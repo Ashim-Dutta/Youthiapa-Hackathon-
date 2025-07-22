@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import Lenis from '@studio-freight/lenis'
+import React from 'react'
 
 const ScrollProvider = ({ children }) => {
   useEffect(() => {

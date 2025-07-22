@@ -5,6 +5,7 @@ import Story from '../components/Story'
 import Footer from '../components/Footer'
 import Advertise from '../components/Advertise'
 import ScrollVelocity from '../components/ScrollVelocity'
+import React from 'react'
 
 const Home = () => {
   return (

@@ -1,4 +1,5 @@
 import { X } from 'lucide-react';
+import React from 'react'
 
 const Search = ({ isOpen, onClose }) => {
   return (

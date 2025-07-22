@@ -1,6 +1,7 @@
 import MyForm from '../components/MyForm'
 import Footer from '../components/Footer'
 import { motion} from 'framer-motion'
+import React from 'react'
 
 
 const pageTransition = {

@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { Renderer, Transform, Vec3, Color, Polyline } from 'ogl';
+import React from 'react'
 
 const Ribbons = ({
   colors = ['#FC8EAC'],

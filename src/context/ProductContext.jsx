@@ -1,5 +1,6 @@
 import { createContext, useState } from "react";
 import two from '../images/two.jpg'
+import React from 'react'
 
 // Create Context
 export const productcontext = createContext(null);

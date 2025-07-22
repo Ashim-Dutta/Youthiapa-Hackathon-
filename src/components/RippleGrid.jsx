@@ -1,5 +1,6 @@
 import { useRef, useEffect } from "react";
 import { Renderer, Program, Triangle, Mesh } from "ogl";
+import React from 'react'
 
 const RippleGrid = ({
   enableRainbow = true,

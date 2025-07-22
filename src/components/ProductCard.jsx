@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import React from 'react'
 
 const ProductCard = (props) => {
   const { id, name, image, price } = props.products;

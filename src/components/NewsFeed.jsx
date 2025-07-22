@@ -1,3 +1,4 @@
+import React from 'react'
 
 import one from '../images/one.jpg'
 

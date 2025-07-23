@@ -26,7 +26,7 @@ const Navbar = ({ onSearchClick }) => {
   return (
     <motion.div
       animate={{ y: 50, transition: { duration: 1 } }}
-      className="rounded-lg px-6 py-4 w-[95%] mx-auto backdrop-blur-xl bg-white/10 border border-white/20 shadow-lg"
+      className="rounded-lg px-6 py-4 w-[95%] mx-auto backdrop-blur-xl bg-white/10 border border-white/20 shadow-lg absolute z-[9]"
     >
       {/* Top section with logo and hamburger */}
       <div className="flex justify-between items-center">

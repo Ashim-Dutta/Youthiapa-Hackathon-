@@ -66,7 +66,7 @@ const BBMerchandise = () => {
   }, [selectedCategory, products]);
 
   return (
-    <>
+    <div className='mt-30'>
       <InfiniteScroll
         dataLength={visibleItems.length}
         next={fetchMoreData}
@@ -110,7 +110,7 @@ const BBMerchandise = () => {
       </InfiniteScroll>
 
       <Footer />
-    </>
+    </div>
   );
 };
 

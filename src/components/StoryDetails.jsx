@@ -22,7 +22,7 @@ const pageTransition = {
 
 const StoryDetails = () => {
   return (
-      <>
+      <div className='mt-20'>
           <motion.div
               variants={pageTransition}
         initial="initial"
@@ -31,7 +31,7 @@ const StoryDetails = () => {
               className='flex justify-center '>
           
 
-          <div className='text-sm mt-20 w-1/2 flex flex-col justify-center items-center gap-5 p-5'>
+          <div className='text-sm mt-20 w-[80%] flex flex-col justify-center items-center gap-5 p-5'>
               <h1 className='text-3xl font-bold'>Read Our Journey</h1> <br/>
               <p>Post by <span className='text-red-500 font-bold'>Digihakk</span> &nbsp;&nbsp;&nbsp;&nbsp; May 19 2025</p>
               <p className='font-bold'>From Friends to Founders</p>
@@ -48,7 +48,7 @@ const StoryDetails = () => {
           </motion.div>
           
           <Footer/>
-      </>
+      </div>
   )
 }
 

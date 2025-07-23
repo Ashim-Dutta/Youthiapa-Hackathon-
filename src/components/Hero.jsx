@@ -46,7 +46,7 @@ const Hero = () => {
 
 
   return (
-    <div className='relative'>
+    <div className='relative mt-30'>
       <div style={{position: 'absolute', height: '100vh', overflow: 'hidden'}}>
   <RippleGrid
     enableRainbow={true}
@@ -69,11 +69,12 @@ const Hero = () => {
   exit="exit"
   className="h-[85vh] flex justify-center flex-col leading-none relative"
 >
-  <motion.div className="flex justify-start px-4 sm:px-8 md:px-10 lg:mt-[25vh] sm:mt-32 md:mt-40">
+  <motion.div className="flex absolute justify-start px-4 sm:px-8 md:px-10 lg:mt-[25vh] sm:mt-[10rem] md:mt-40">
     <motion.h1
-      className="
+            className=" lg:-top-[20rem] 
+      absolute -top-[12rem]
         uppercase  font-[neo]
-        text-[2.5rem] sm:text-[6rem] text-[5.5rem] lg:text-[6rem] xl:text-[6rem]
+        text-[3rem] sm:text-[6rem]  lg:text-[6rem] xl:text-[6rem]
       "
     >
       explore your
@@ -109,17 +110,19 @@ const Hero = () => {
     opacity: [0, 1],
     transition: { duration: 0.5 },
   }}
-  className="mx-4 sm:mx-8 md:mx-10 z-[5]"
+  className="mx-4 sm:mx-8 md:mx-10 "
 >
   <h1
     className="
-      text-[3rem]  sm:mt-10 md:text-[10rem] lg:text-[9rem] xl:text-[8rem] 
+      text-[2.5rem] sm:text-[4rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem]
+mt-10 sm:mt-12 md:mt-0 lg:mt-24 xl:-mt-2
+
       flex flex-col
       rounded-xl
       uppercase
       font-[neo]
       bg-gradient-to-r from-[#000428] via-[#004e92] to-[#1CB5E0]
-      bg-clip-text text-transparent
+      bg-clip-text text-transparent absolute top-[17rem]
       
     "
   >
@@ -129,8 +132,8 @@ const Hero = () => {
 
 
       {/* Footer */}
-      <div className=' mt-auto w-full uppercase flex  items-center justify-center font-bold '>
-        <h3 className='mx-10'>&copy;2025 moods</h3>
+      <div className=' mt-[35rem] w-full uppercase flex  items-center justify-center font-bold '>
+        <h3 className='mx-10 '>&copy;2025 moods</h3>
         <CircularText
           text="UNLEASE*YOUR*FASHION*"
           onHover="speedUp"

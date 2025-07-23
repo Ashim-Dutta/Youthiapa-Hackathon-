@@ -33,7 +33,7 @@ const pageTransition = {
 
 const RaisedRightElite = () => {
   return (
-    <>
+    <div className='mt-30'>
       <motion.div
         variants={pageTransition}
         initial="initial"
@@ -87,25 +87,27 @@ const RaisedRightElite = () => {
     <p className="text-base sm:text-lg mb-8 max-w-xl text-gray-700">
       Be the first to get exclusive updates, discounts, and product drops directly in your inbox.
     </p>
-    <form className="flex flex-col sm:flex-row items-center gap-4 w-full max-w-lg">
-      <input
-        type="email"
-        placeholder="Enter your email"
-        className="w-full sm:flex-1 px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
-      />
-      <button
-        type="submit"
-        className="bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition duration-300 w-full sm:w-auto"
-      >
-        Subscribe
-      </button>
-    </form>
+<form className="flex flex-col sm:flex-row items-stretch gap-4 w-full max-w-lg mx-auto px-4">
+  <input
+    type="email"
+    placeholder="Enter your email"
+    className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-black"
+  />
+  <button
+    type="submit"
+    className="w-full sm:w-auto bg-black text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition duration-300"
+  >
+    Subscribe
+  </button>
+</form>
+
+
   </div>
 </motion.div>
 
       
       <Footer/>
-    </>
+    </div>
   )
 }
 

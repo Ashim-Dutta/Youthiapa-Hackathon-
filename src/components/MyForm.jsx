@@ -1,5 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+import { motion} from 'framer-motion'
 
 const MyForm = () => {
   const {
@@ -15,8 +16,8 @@ const MyForm = () => {
   };
 
   return (
-    <div className="m-10   flex items-center justify-center px-4">
-      <div className="w-[70%] p-8 bg-white rounded-2xl shadow-2xl border border-slate-200">
+    <div className="  flex items-center justify-center px-4">
+      <div className=" p-8 bg-white rounded-2xl shadow-2xl border border-slate-200">
         <h2 className="text-3xl font-extrabold text-slate-800  text-center">Contact Us</h2>
 
         <form onSubmit={handleSubmit(onSubmit)} noValidate className="space-y-5">
@@ -108,13 +109,14 @@ const MyForm = () => {
 
           {/* Submit Button */}
           <div>
-            <button
+            <motion.button
+              whileTap={{ scale: 0.98 }}
               type="submit"
               disabled={isSubmitting}
               className="w-full py-3 px-6 bg-black text-white font-semibold rounded-lg shadow hover:bg-white hover:text-black transition-all duration-300 disabled:opacity-50"
             >
               {isSubmitting ? 'Submitting...' : 'Submit'}
-            </button>
+            </motion.button>
           </div>
 
           {/* Optional Success Message */}

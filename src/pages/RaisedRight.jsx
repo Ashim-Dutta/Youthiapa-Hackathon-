@@ -27,7 +27,7 @@ const RaisedRight = () => {
   };
 
   return (
-    <div className="min-h-screen px-4 md:px-10 mt-25">
+    <div className="min-h-screen px-4 md:px-10 mt-40">
       <h2 className="text-xl my-8 text-center font-[onder]">Oversize Collection</h2>
 
       <InfiniteScroll

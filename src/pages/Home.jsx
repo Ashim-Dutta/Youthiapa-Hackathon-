@@ -13,7 +13,7 @@ const Home = () => {
       <Hero />
             <ScrollVelocity
           texts={['35% off now  ✦ ']} 
-          className="custom-scroll-text text-[2rem] outline-text2  p-5 font-[onder] uppercase bg-[#FE3618]
+          className="custom-scroll-text outline-text2  text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-none p-5 uppercase font-[onder] uppercase bg-[#FE3618]
 ]"
       />
         <Section_1/>
@@ -21,10 +21,10 @@ const Home = () => {
         <Advertise/>
       <Story />
       <ScrollVelocity
-          texts={['Raised Right by Youthiapa ✦ ', ' ✦ Wear Your Values']} 
-          className="custom-scroll-text  text-[2rem] leading-none p-5 uppercase font-[onder] bg-[#9ACD32]
-]"
-      />
+  texts={['Raised Right by Youthiapa ✦ ', ' ✦ Wear Your Values']} 
+  className="custom-scroll-text text-xl sm:text-2xl md:text-3xl lg:text-4xl leading-none p-5 uppercase font-[onder] bg-[#9ACD32]"
+/>
+
       <Footer />
       
     </div>

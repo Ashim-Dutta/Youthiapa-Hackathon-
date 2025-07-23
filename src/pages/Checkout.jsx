@@ -63,7 +63,7 @@ const onSubmit = (data) => {
   }
 
   return (
-    <>
+    <div className='mt-30'>
       <motion.div
       initial={{ opacity: 0, y: 40 }}
       animate={{ opacity: 1, y: 0 }}
@@ -71,7 +71,10 @@ const onSubmit = (data) => {
       className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8"
     >
       <div className="max-w-7xl mx-auto">
-        <h1 className="text-3xl font-bold text-gray-900 m-8 text-center font-[onder]">Checkout</h1>
+        <h1 className="text-center font-bold text-gray-900 my-8 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-[onder,sans-serif]">
+  Checkout
+</h1>
+
 
         <div className="grid md:grid-cols-2 gap-8">
           {/* Left Side - Shipping & Payment Form */}
@@ -248,7 +251,7 @@ const onSubmit = (data) => {
       </motion.div>
       
       <Footer/>
-    </>
+    </div>
   );
 };
 

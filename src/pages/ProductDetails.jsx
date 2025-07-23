@@ -51,7 +51,7 @@ const ProductDetails = () => {
   };
 
   return (
-    <>
+    <div className='mt-30'>
       <motion.div
         variants={pageTransition}
         initial="initial"
@@ -188,7 +188,7 @@ const ProductDetails = () => {
         </div>
       </motion.div>
       <Footer />
-    </>
+    </div>
   );
 };
 

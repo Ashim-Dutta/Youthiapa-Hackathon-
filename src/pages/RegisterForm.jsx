@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { easeIn, motion } from 'framer-motion';
 import { toast } from 'react-toastify';
 import Register from '../images/registered.gif';
-import React from 'react'
+import React from 'react';
 
 const RegisterForm = () => {
   const {
@@ -15,56 +15,57 @@ const RegisterForm = () => {
     reset,
   } = useForm();
 
-  const navigate = useNavigate()
+  const navigate = useNavigate();
 
   const onSubmit = data => {
-
-    const existUser = localStorage.getItem('email')
-    if (existUser) { 
-      toast.error('User already Registered. Please login')
-      navigate('/login')
-      return
+    const existUser = localStorage.getItem('email');
+    if (existUser) {
+      toast.error('User already Registered. Please login');
+      navigate('/login');
+      return;
     }
 
-    localStorage.setItem('username',data.username)
-    localStorage.setItem('email',data.email)
-    localStorage.setItem('password',data.password)
-    localStorage.setItem('confirmPassword',data.confirm)
+    localStorage.setItem('username', data.username);
+    localStorage.setItem('email', data.email);
+    localStorage.setItem('password', data.password);
+    localStorage.setItem('confirmPassword', data.confirm);
     toast.success("Registration successful!");
-
-    console.log('Register Data:', data);
     reset();
-    navigate('/login')
+    navigate('/login');
   };
 
   return (
     <motion.div
       animate={{ opacity: [0, 1] }}
       transition={{ duration: 0.5, ease: easeIn }}
-      className="max-h-[85vh] mt-10 flex flex-col items-center justify-center"
+      className="flex flex-col items-center justify-center px-4 py-10 sm:px-6 lg:px-8 min-h-screen"
     >
-      <div className="w-full max-w-6xl mx-auto flex shadow-2xl rounded-3xl overflow-hidden">
-
-        {/* Left Branding Side */}
-        <div className="w-1/2 bg-gradient-to-br from-[#0e0e0e] via-[#1a1a1a] to-[#111111] p-12 flex flex-col justify-between">
+      <div className="w-full mt-30 max-w-6xl mx-auto flex flex-col lg:flex-row shadow-2xl rounded-3xl overflow-hidden">
+        
+        {/* Left Branding Section */}
+        <div className="w-full lg:w-1/2 bg-gradient-to-br from-[#0e0e0e] via-[#1a1a1a] to-[#111111] p-6 sm:p-10 flex flex-col justify-between">
           <div>
-            <h1 className="text-4xl font-extrabold mb-4 tracking-tight text-white leading-tight">
+            <h1 className="text-3xl sm:text-4xl font-extrabold mb-4 tracking-tight text-white leading-tight">
               Youthiapa<span className="text-indigo-500">.</span>
             </h1>
-            <p className="text-gray-400 text-lg">
+            <p className="text-gray-400 text-sm sm:text-lg">
               Start your creative journey with us. Sign up and unlock something special.
             </p>
           </div>
-          <img src={Register} className="w-[15vw] h-[30vh] mx-auto bg-black rounded-full" />
-          <div className="mt-10 text-sm text-gray-600">
+          <img
+            src={Register}
+            alt="Register"
+            className="w-[50%] sm:w-[40%] md:w-[30%] lg:w-[15vw] h-auto mx-auto mt-8 rounded-full bg-black"
+          />
+          <div className="mt-10 text-xs text-gray-500 text-center lg:text-left">
             <p>Designed to inspire.</p>
             <p>© 2025 Youthiapa</p>
           </div>
         </div>
 
-        {/* Right Form Side */}
-        <div className="w-1/2 bg-white text-gray-900 p-10">
-          <h2 className="text-3xl font-bold mb-2">Create an Account</h2>
+        {/* Right Form Section */}
+        <div className="w-full lg:w-1/2 bg-white text-gray-900 p-6 sm:p-10">
+          <h2 className="text-2xl sm:text-3xl font-bold mb-2">Create an Account</h2>
           <p className="text-gray-500 mb-6 text-sm">Sign up to get started with our platform.</p>
 
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">

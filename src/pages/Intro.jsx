@@ -48,7 +48,7 @@ const Intro = ({ onFinish }) => {
         '></div>
 
         {/* Animated Word */}
-<h1 className='uppercase absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 flex gap-[0.8vw] text-[1.5rem] md:text-[2.5rem] lg:text-[4.5rem] font-[onder] tracking-wide'>
+<h1 className='uppercase absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 flex gap-[0.8vw] text-[1.2rem] md:text-[2.5rem] lg:text-[4.5rem] font-[onder] tracking-wide'>
           {word.split('').map((char, i) => (
             <span
               key={i}

@@ -122,7 +122,7 @@ Hi, I’m **Ashim** — a frontend developer passionate about building bold, ani
 
 This project was built during the **Sheryians Coding School COHORT Hackathon**, where I redesigned a live brand site from scratch using React, GSAP, Framer Motion, and other modern tools.
 
-🏆 Successfully completed the challenge and received official **Sheryians Swag (Cap)** as a reward for creativity and execution.
+
 
 🔗 [Visit My Portfolio](https://my-portfolio-kmen.vercel.app/)
 

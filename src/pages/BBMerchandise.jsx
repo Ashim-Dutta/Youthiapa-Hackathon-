@@ -81,19 +81,39 @@ const BBMerchandise = () => {
           exit="exit"
           className="w-full pt-7 px-6"
         >
-          <div className="flex items-center gap-4 mt-5 flex-wrap justify-center">
-            <ShinyText
-              text="BB Merchandise"
-              disabled={false}
-              speed={1.2}
-              className="shiny-text font-bold text-5xl m-5"
-            />
-            <Filter
-              label="Select Category"
-              options={categories}
-              onSelect={(option) => setSelectedCategory(option)}
-            />
-          </div>
+<div className="relative w-full mt-10 px-6 flex flex-col items-center md:block">
+  {/* Centered ShinyText */}
+  <div className="text-center mb-4 md:mb-0">
+    <ShinyText
+      text="BB Merchandise"
+      disabled={false}
+      speed={1.2}
+      className="shiny-text font-bold text-4xl md:text-5xl lg:text-6xl"
+    />
+  </div>
+
+  {/* Filter  */}
+<div className="absolute md:top-1/2 md:right-6 md:-translate-y-1/2 md:block hidden z-50">
+  <Filter
+    label="Select Category"
+    options={categories}
+    onSelect={(option) => setSelectedCategory(option)}
+  />
+</div>
+
+
+  {/* Filter shown below on mobile */}
+  <div className="md:hidden mt-4">
+    <Filter
+      label="Select Category"
+      options={categories}
+      onSelect={(option) => setSelectedCategory(option)}
+    />
+  </div>
+</div>
+
+
+
 
           {visibleItems.length > 0 ? (
             <div className="flex flex-wrap justify-center gap-10 mt-10">

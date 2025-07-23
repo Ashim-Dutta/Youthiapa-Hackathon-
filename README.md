@@ -77,10 +77,8 @@ Working on this project taught me:
 
 ## 🚧 Upcoming Improvements
 
-- 🗂️ Add **product filter** and **category pages**
 - 🔄 Convert into a full **e-commerce clone** with backend (Supabase / Firebase)
 - 🌙 Add **dark mode toggle** for modern UI experience
-- 🖼️ Implement **lazy loading** for images and heavy 3D visuals
 - 🔍 Add search and product preview modals
 
 ---

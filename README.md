@@ -12,13 +12,7 @@ A complete front-end redesign of [Youthiapa](https://www.youthiapa.com/), Bhuvan
 
 ---
 
-## 📸 Screenshots
 
-| Landing Page | Product Scroll | Details Page |
-|--------------|----------------|---------------|
-| ![Landing](./screenshots/landing.png) | ![Scroll](./screenshots/scroll.png) | ![Details](./screenshots/details.png) |
-
----
 
 ## 📖 About the Project
 

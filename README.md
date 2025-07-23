@@ -1,12 +1,87 @@
-# React + Vite
+# 🧢 Youthiapa - Redesign by Ashim
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete front-end redesign of [Youthiapa](https://www.youthiapa.com/), Bhuvan Bam’s official merchandise brand — built from scratch using modern frontend technologies.
 
-Currently, two official plugins are available:
+> 🎯 Built as part of **Sheryians Coding School COHORT Hackathon** with the goal of redesigning an influencer’s brand website to improve visual identity, interactivity, and user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[🚀 View Live Website](https://youthiapa-hackathon.vercel.app/)
+
+---
+
+
+
+## 📖 About the Project
+
+**Youthiapa** is the official merchandise website of YouTuber **Bhuvan Bam**. While the brand is well-known, its website lacked modern UI/UX design, smooth interactions, and engaging animations. I decided to take it up as my hackathon project and reimagine the entire frontend experience.
+
+This redesign focuses on:
+- Visual storytelling through animation
+- Clean, responsive layout
+- Performance optimization
+- Seamless user interaction across all devices
+
+---
+
+## ✨ Features
+
+- 🎨 Modern and aesthetic design with bold typography
+- ⚡ GSAP scroll animations and transitions
+- 🎞️ Framer Motion page transitions and interactive UI
+- 🧱 Modular components with React Bit
+- 🎯 Fully responsive and mobile optimized
+- 🌀 Subtle OGL (OpenGL) based canvas elements for depth
+- 🔁 Custom transitions, product cards, hover effects
+- 💡 Built entirely in React with Vite for fast builds
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology      | Role                        |
+|------------------|-----------------------------|
+| **React.js**       | UI building framework      |
+| **Tailwind CSS**   | Responsive UI styling      |
+| **GSAP**           | Scroll-based animations    |
+| **Framer Motion**  | Page and component transitions |
+| **React Bit**      | Component sharing and reuse |
+| **OGL (OpenGL)**   | Low-level canvas effects   |
+| **Vite**           | Fast bundler and dev server |
+
+---
+
+## 🧠 Learnings
+
+Working on this project taught me:
+
+- 🧩 How to blend **creative UI with performant code**
+- 🌀 Deep understanding of **GSAP timelines, scroll triggers**
+- 🎞️ Effective use of **Framer Motion** for transitions and motion flow
+- 🧱 Structuring scalable **React projects using Atomic Design**
+- 🎯 Importance of **design-to-code alignment** for branding impact
+
+---
+
+## 🧱 Challenges Faced
+
+- ⚔️ Integrating **GSAP + Framer Motion** without animation conflicts
+- 📱 Optimizing **image & animation performance** for mobile devices
+- 🖱️ Creating **micro-interactions** that feel seamless and brand-native
+- 🧩 Managing **z-index and layered canvas overlays** with OGL
+- 🧪 Balancing aesthetic and performance on large animations
+
+---
+
+## 🚧 Upcoming Improvements
+
+- 🗂️ Add **product filter** and **category pages**
+- 🔄 Convert into a full **e-commerce clone** with backend (Supabase / Firebase)
+- 🌙 Add **dark mode toggle** for modern UI experience
+- 🖼️ Implement **lazy loading** for images and heavy 3D visuals
+- 🔍 Add search and product preview modals
+
+---
+

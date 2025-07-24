@@ -94,7 +94,7 @@ const Hero = () => {
     absolute z-[999]
     top-[8vh] right-[6vw]
     h-[50vh] md:h-[60vh] lg:h-[80vh]
-    w-[60vw] md:w-[40vw] lg:w-[25vw]
+    w-[60vw] md:w-[40vw] lg:w-[25vw] loading:lazy
   "
   camera-controls
   disable-zoom
@@ -115,7 +115,7 @@ const Hero = () => {
   <h1
     className="
       text-[2.5rem] sm:text-[4rem] md:text-[6rem] lg:text-[8rem] xl:text-[10rem]
-mt-10 sm:mt-12 md:mt-0 lg:mt-24 xl:-mt-2
+mt-10 sm:mt-12 md:mt-0 lg:mt-24 xl:mt-[1rem]
 
       flex flex-col
       rounded-xl
